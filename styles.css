@@ -205,7 +205,7 @@ main {
     background: linear-gradient(#1414145d, #18181a8e), url("assets/handshake.jpg");
     background-size: cover;
     background-position: center;
-    padding: 50px 220px;
+    padding: 80px 0px;
 }
 
 .support-section-title {
@@ -218,7 +218,7 @@ main {
 .support-section-p {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 0 100px 50px;
+    padding: 0 250px 50px;
 }
 
 
@@ -249,4 +249,25 @@ input[type="text"] {
     padding: 17px 20px;
     border-radius: 8px;
     border: 0;
+}
+
+
+/* footer related section */
+
+
+#footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 10%;
+}
+
+footer img {
+    width: 45px;
+    height: 45px;
 }
