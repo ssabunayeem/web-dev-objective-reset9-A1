@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    margin: 5% 10%;
+    padding: 5% 10%;
 }
 
 .font-normal {
@@ -65,21 +65,34 @@ main {
     text-align: center;
 }
 
-.section-p {
-    padding: 0 5%;
+.section-p-Why-Web {
+    padding: 0 10%;
     text-align: center;
 }
 
-/********** Why Web Development ********/
+.section-p {
+    padding: 0 15%;
+    text-align: center;
+}
 
-.Why-Web-Development {
+.Why-Web-Development,
+.other-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 16px;
+    margin-top: 90px;
+
+}
+
+/********** Why Web Development ********/
+
+
+.Why-Web-Development {
     background: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
 }
+
 
 .content-title {
     color: rgba(13, 19, 33, 0.7);
@@ -129,7 +142,7 @@ main {
 
 .video {
     /* Frame 14 */
-    width: 1140px;
+    width: 95%;
     height: 614px;
     display: flex;
     justify-content: center;
@@ -145,4 +158,42 @@ main {
 
 .v {
     border-radius: 16px;
+}
+
+
+/* My Current Target section  */
+
+.my-target-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 50px 0;
+}
+
+.skill-item1,
+.skill-item2,
+.skill-item3 {
+    padding: 50px;
+}
+
+.skill-item1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.skill-item2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.skill-item3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.item-link2 {
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
 }
