@@ -260,7 +260,7 @@ input[type="text"] {
     background: rgba(13, 19, 33, 0.03);
 }
 
-.footer-info {
+footer>#footer-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
