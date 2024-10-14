@@ -123,3 +123,26 @@ main {
 .link-btn {
     margin-top: 40px;
 }
+
+
+/* My Inspiration section styles */
+
+.video {
+    /* Frame 14 */
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 32px;
+    margin: 48px 0px;
+
+
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.v {
+    border-radius: 16px;
+}
