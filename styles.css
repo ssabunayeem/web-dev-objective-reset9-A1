@@ -197,3 +197,56 @@ main {
     text-align: left;
     text-decoration-line: underline;
 }
+
+
+/*** I need Support section - related styles ****/
+.support-section {
+    border-radius: 16px;
+    background: linear-gradient(#1414145d, #18181a8e), url("assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 220px;
+}
+
+.support-section-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.support-section-p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0 100px 50px;
+}
+
+
+input[type="text"] {
+    justify-content: flex-start;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 400;
+    width: 548px;
+    height: 25px;
+    border: 0px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px;
+    margin: 0px 16px;
+
+
+}
+
+
+.button {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: 0;
+}
