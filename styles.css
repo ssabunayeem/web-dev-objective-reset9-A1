@@ -1,0 +1,125 @@
+/* ********* common styes ********* */
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+main {
+    margin: 5% 10%;
+}
+
+.font-normal {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 600;
+}
+
+.common-p-style {
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+}
+
+
+
+/********* banner styles *********/
+.header {
+    background-image: url("assets/Hero-bg.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header>p {
+    padding: 0 20% 20px;
+}
+
+.main-button {
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    border: 0px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+
+
+
+/********** Main section styles ********/
+
+/* common style */
+
+.section-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.section-p {
+    padding: 0 5%;
+    text-align: center;
+}
+
+/********** Why Web Development ********/
+
+.Why-Web-Development {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+}
+
+.content-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.why-dev-item {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 48px;
+    margin: 48px;
+}
+
+.item-content {
+    padding-right: 15%;
+}
+
+.item-2 {
+
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.item-link {
+    text-decoration: none;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link-btn {
+    margin-top: 40px;
+}
